@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" tiledversion="1.1.2" orientation="orthogonal" renderorder="right-down" width="100" height="18" tilewidth="32" tileheight="32" infinite="0" nextobjectid="34">
+ <tileset firstgid="1" source="Jungle_terrain.tsx"/>
+ <layer name="Background" width="100" height="18">
+  <data encoding="base64" compression="zlib">
+   eJztwQEBAAAAgiD/r25IQAEAAAAAAAAvBhwgAAE=
+  </data>
+ </layer>
+ <layer name="Foreground" width="100" height="18">
+  <data encoding="base64" compression="zlib">
+   eJztlE1OwlAURh/GKe5AlDDSgSyBERMdAeIOQCfytwSGtG5CtsHPMlBnILIFRqjHpCQFXhp6o7TCPclJmt427777vTxjFEVRFEVRFMXOM3ajbkIxPezjAIcR93LojPAFX/EN59G2o/i4ShiTTUTdRbwoMI+ibyZlnu92NKNr1rnRPFZ4ZB41rGMDm9jawYwqrFHFe3w48EwymMYUnmGHeTjo4hOe+mrbUsQS3lpqC/wM8Eu6kT3gJ4sctj1PLN9ceLVLS22ME3xfe99BB13LP0nfejZtPfwXjoQem80sJHksz3qYM73PeaSEnpvNLCR5TPEDZyF6luaxvDeDDHOn/gVB+5IYNg8J0jzyW/T/Wz1K0Tzilcc3PDlisQ==
+  </data>
+ </layer>
+ <layer name="Kachelebene 3" width="100" height="18">
+  <data encoding="base64" compression="zlib">
+   eJztwQEBAAAAgiD/r25IQAEAAAAAAAAvBhwgAAE=
+  </data>
+ </layer>
+ <objectgroup name="GROUNDS">
+  <object id="1" x="0" y="480">
+   <polyline points="0,0 480,0 576,-96 896,-96"/>
+  </object>
+  <object id="2" x="1024" y="448">
+   <polyline points="0,0 96,0"/>
+  </object>
+  <object id="3" x="1228.67" y="413.333">
+   <polyline points="0,0 20,-13.3333 50.6667,-14 69.3333,2"/>
+  </object>
+  <object id="4" x="1440" y="384">
+   <polyline points="0,0 288,0"/>
+  </object>
+  <object id="5" x="1536" y="256">
+   <polyline points="0,0 96,0"/>
+  </object>
+  <object id="6" x="1636.67" y="224.667">
+   <polyline points="0,0 27.3333,-0.666667 56.6667,0.666667"/>
+  </object>
+  <object id="7" x="1888" y="480">
+   <polyline points="0,0 320,0"/>
+  </object>
+  <object id="32" x="1728" y="384">
+   <polyline points="0,0 -33.3333,-18.6667"/>
+  </object>
+  <object id="33" x="1600" y="384">
+   <polyline points="0,0 32,-32"/>
+  </object>
+ </objectgroup>
+ <objectgroup name="WALLS">
+  <object id="8" x="896" y="384">
+   <polyline points="0,0 0,192"/>
+  </object>
+  <object id="9" x="1024" y="448">
+   <polyline points="0,0 0,64 96,64 96,0"/>
+  </object>
+  <object id="10" x="0" y="480">
+   <polyline points="0,0 0,96"/>
+  </object>
+  <object id="11" x="1228.67" y="416.667">
+   <polyline points="0,0 16.6667,18 50.6667,18 68,2"/>
+  </object>
+  <object id="12" x="1440" y="384">
+   <polyline points="0,0 0,192"/>
+  </object>
+  <object id="13" x="1728" y="384">
+   <polyline points="0,0 0,192"/>
+  </object>
+  <object id="14" x="1536" y="256">
+   <polyline points="0,0 32,8.66667 63.3333,10.6667 96.6667,26.6667 96,64 96,96"/>
+  </object>
+  <object id="15" x="1693.33" y="229.333">
+   <polyline points="0,0 2.66667,26.6667 2.66667,122.667 7.33333,138.667"/>
+  </object>
+  <object id="16" x="1888" y="480">
+   <polyline points="0,0 0,96"/>
+  </object>
+  <object id="17" x="2208" y="480">
+   <polyline points="0,0 0,96"/>
+  </object>
+ </objectgroup>
+ <objectgroup name="JUMPMARKS" visible="0">
+  <object id="18" x="2224" y="448.667">
+   <polyline points="0,0 0.666667,31.3333"/>
+  </object>
+  <object id="19" x="1870.67" y="448.667">
+   <polyline points="0,0 0.666667,30.6667"/>
+  </object>
+  <object id="20" x="1742.67" y="353.333">
+   <polyline points="0,0 0.666667,28.6667"/>
+  </object>
+  <object id="21" x="1713.33" y="191.333">
+   <polyline points="0,0 -1.33333,32"/>
+  </object>
+  <object id="22" x="1614.67" y="190.667">
+   <polyline points="0,0 1.33333,32.6667"/>
+  </object>
+  <object id="23" x="1516.67" y="224">
+   <polyline points="0,0 1.33333,30.6667"/>
+  </object>
+  <object id="24" x="1421.33" y="352">
+   <polyline points="0,0 0.666667,32.6667"/>
+  </object>
+  <object id="25" x="1312.67" y="384.667">
+   <polyline points="0,0 0.666667,30"/>
+  </object>
+  <object id="26" x="1214.67" y="384.667">
+   <polyline points="0,0 -0.666667,31.3333"/>
+  </object>
+  <object id="27" x="1134" y="415.333">
+   <polyline points="0,0 1.33333,31.3333"/>
+  </object>
+  <object id="28" x="1005.33" y="416">
+   <polyline points="0,0 0.666667,31.3333"/>
+  </object>
+  <object id="29" x="912.667" y="352">
+   <polyline points="0,0 0,31.3333"/>
+  </object>
+  <object id="30" x="-24" y="448.667">
+   <polyline points="0,0 0,30.6667"/>
+  </object>
+ </objectgroup>
+</map>

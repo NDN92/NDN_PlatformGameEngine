@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<NDN_PlatformGame_Level name="level0001">
+    <tiled-map>
+        <path>level0001\level0001.tmx</path>
+    </tiled-map>
+</NDN_PlatformGame_Level>
